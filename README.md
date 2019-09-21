@@ -1,2 +1,4 @@
 # Reinforcement_Learning
 Projects leveraging reinforcement learning
+
+I created a simple game that a software robot can play and learn based on Markov Decision Processes. The game is called Hungry Snake where the goal is for a snake to continuously find its food in a 20 x 20 environment without running into itself or hitting a wall. The snake could move one unit right, left, or straight within the environment and score 1 point for each time it eats its food. The game was coded in python with Pygame and uses a deep reinforcement learning algorithm leveraging Keras. Different deep neural networks were explored including two and three dense, hidden layers with 120 nodes and additional Dropout layers. The learning rate is not fixed, and different starting learning rates were explored ranging from .05 -.00005. A positive reward is given when the snake finds its food and a negative reward is given when a snake hits itself or runs into a wall. Each snake played 150 games.
